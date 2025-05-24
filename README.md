@@ -29,12 +29,12 @@
 
 ---
 
-## 🧪 Ce que j’aime implémenter
+## 🧪 Ce que j’aime concevoir
 
-- Authentification sécurisée
-- Interfaces TV fluides et intuitives
-- Systèmes de notification & commentaires efficaces
-- Tests unitaires & fonctionnels robustes
+- ⚙️ Des architectures backend modulaires, sécurisées et facilement testables
+- 🧪 Une couverture de tests complète pour assurer la stabilité du code (unitaires, fonctionnels, intégration)
+- 🎮 Des interfaces intuitives et simple !
+- 🧩 Des expériences utilisateurs fluides, claires et cohérentes, quel que soit le support (web, mobile, TV)
 
 ---
 
