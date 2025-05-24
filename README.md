@@ -14,7 +14,7 @@
 
 ### 🧠 Projets en cours
 
-- 🧗‍♂️ **Bloc Buddies** : communauté de grimpeurs
+- 🧗‍♂️ **EKIP** : communauté de grimpeurs
 - 🎯 **GoalTracker AI** : suivi d’objectifs avec génération automatique de sous-tâches
 - 🔁 **Entraide Locale** : prêt, don, partage de compétences entre voisins
 
