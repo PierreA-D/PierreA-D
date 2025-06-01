@@ -48,7 +48,7 @@
 
 ## 📫 Me contacter
 
-- GitHub : https://github.com/PierreA-D
+- Linkedin : https://www.linkedin.com/in/pierre-dumas-18559521b/
 
 ---
 
