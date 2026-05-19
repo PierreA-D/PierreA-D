@@ -134,12 +134,6 @@ Application SaaS de suivi d'objectifs intégrant l'intelligence artificielle pou
 
 ---
 
-## 💼 Expérience professionnelle
-
-Développement d'applications métier sur mesure avec Symfony pour diverses organisations.
-
----
-
 ## 🛠️ Stack principale
 
 | Frontend | Backend | Streaming | Infrastructure |
