@@ -1,54 +1,168 @@
-# 👋 Salut, moi c'est Pierre !
+# 👋 Salut, moi c'est Pierre
 
-🎯 Développeur fullstack passionné, je conçois des solutions performantes pour le **web** et les **TV connectées**. J’aime créer des projets utiles, optimiser les flux, automatiser les tâches… et grimper du bloc en parallèle 🧗‍♂️
+Développeur **Full-Stack** passionné par les architectures robustes, la qualité logicielle et les produits qui résolvent de vrais problèmes.
+
+Je conçois des applications web performantes et évolutives avec un fort accent sur :
+
+- ⚙️ L'architecture logicielle
+- 🧪 La qualité de code et les tests automatisés
+- 🚀 Les performances et la scalabilité
+- 📡 Les plateformes de streaming vidéo temps réel
+
+En parallèle de mon activité professionnelle, je développe plusieurs projets personnels autour de l'escalade, du streaming et des applications SaaS.
 
 ---
 
-## 🚀 Ce que je fais
+## 🚀 Domaines d'expertise
 
-### 💻 Développement
+### Backend
 
-- **Backend** – Symfony, API REST, JWT, Doctrine, 2FA (Scheb)
-- **Frontend** – React, TanStack Router, React Query, Ant Design, Tailwind
-- **Mobile/TV** – Flutter (avec gestion fine du focus, ExoPlayer, télécommandes Android TV)
+- PHP 8+
+- Symfony
+- API Platform
+- Doctrine ORM
+- JWT Authentication
+- Scheb 2FA
+- Messenger
 
-### 🧠 Projets en cours
+### Frontend
 
-- 🧗‍♂️ **EKIP** : communauté de grimpeurs
-- 🎯 **GoalTracker AI** : suivi d’objectifs avec génération automatique de sous-tâches
-- 🔁 **Entraide Locale** : prêt, don, partage de compétences entre voisins
+- React
+- Next.js
+- TypeScript
+- TanStack Router
+- React Query
+- TailwindCSS
+- Ant Design
+- Stimulus
+
+### Streaming & Vidéo
+
+- FFmpeg
+- MediaMTX
+- WebRTC
+- HLS
+- RTMP / RTSP / SRT
+- Video.js
+
+### Infrastructure
+
+- Docker
+- Linux
+- GitHub Actions
+- CI/CD
+- PostgreSQL
+
+---
+
+## 🏗️ Architecture & Qualité
+
+Parce qu'un projet doit pouvoir évoluer sereinement dans le temps :
+
+- Clean Architecture
+- API REST
+- Domain-Driven Design (DDD)
+- CQRS
+- Architecture orientée événements
+- Analyse statique avec PHPStan
+- Tests unitaires et fonctionnels avec PHPUnit
+- Contrôle des règles d'architecture avec PHPArkitect
+- Automatisation qualité avec GrumPHP
+- Conventional Commits
+- Intégration et déploiement continus
+
+---
+
+## 🧗 Projet principal — Climbing Live
+
+**Climbing Live** est une plateforme de retransmission vidéo conçue pour les compétitions d'escalade.
+
+L'objectif est de permettre à des organisateurs de diffuser facilement un événement avec plusieurs caméras tout en conservant une faible latence et une qualité de diffusion optimale.
+
+### Fonctionnalités
+
+- 🎥 Diffusion multi-caméras
+- 📱 Ingestion des flux depuis smartphones ou caméras
+- ⚡ Streaming WebRTC faible latence
+- 📺 Diffusion HLS
+- 🏆 Gestion des compétitions
+- 🎬 Gestion des flux vidéo
+- 📊 Interface d'administration
+
+### Architecture
+
+```text
+Smartphones / Caméras
+        │
+        ▼
+ RTMP / RTSP / SRT
+        │
+        ▼
+     MediaMTX
+      (Ingest)
+        │
+        ▼
+ FFmpeg Workers
+    (Transcode)
+        │
+ ┌──────┴──────┐
+ ▼             ▼
+HLS         WebRTC
+ ▼             ▼
+ Next.js Video Player
+```
+
+### Dépôts
+
+| Projet | Description | Stack |
+|---------|-------------|---------|
+| `climbing-live` | Frontend de diffusion multi-caméras | Next.js, TypeScript, TailwindCSS |
+| `climbing-live-api` | API de gestion des compétitions et des athlètes | Symfony, API Platform |
+| `climbing-live-streams` | Infrastructure de streaming et de transcodage | MediaMTX, FFmpeg, Docker |
+
+---
+
+## 🧠 Projets en cours
+
+### 🧗 EKIP
+
+Plateforme communautaire dédiée aux grimpeurs pour trouver des partenaires, organiser des sorties et partager leur progression.
+
+### 🎯 GoalTracker AI
+
+Application SaaS de suivi d'objectifs intégrant l'intelligence artificielle pour générer automatiquement des plans d'action et des sous-tâches.
+
+---
+
+## 💼 Expérience professionnelle
+
+Développement d'applications métier sur mesure avec Symfony pour diverses organisations.
 
 ---
 
 ## 🛠️ Stack principale
 
-| Frontend          | Backend            | Mobile / TV     | Tests / Outillage     |
-|-------------------|--------------------|------------------|------------------------|
-| React, Tailwind   | Symfony, Doctrine  | Flutter, ExoPlayer | PHPUnit, Docker, GitHub Actions |
-| TanStack Router   | LexikJWT, Scheb 2FA| Remote Focus TV | Postman, MakerBundle   |
-
----
-
-## 🧪 Ce que j’aime concevoir
-
-- ⚙️ Des architectures backend modulaires, sécurisées et facilement testables
-- 🧪 Une couverture de tests complète pour assurer la stabilité du code (unitaires, fonctionnels, intégration)
-- 🎮 Des interfaces intuitives et simple !
-- 🧩 Des expériences utilisateurs fluides, claires et cohérentes, quel que soit le support (web, mobile, TV)
+| Frontend | Backend | Streaming | Infrastructure |
+|-----------|-----------|-----------|-----------|
+| React | Symfony | FFmpeg | Docker |
+| Next.js | API Platform | MediaMTX | Linux |
+| TypeScript | Doctrine | WebRTC | PostgreSQL |
+| TailwindCSS | JWT / 2FA | HLS | GitHub Actions |
 
 ---
 
 ## 🌱 En dehors du code
 
-- 🧗 Grimpeur passionné – objectif : **7A bloc**
-- 🥾 GR20 en 10 étapes : le défi physique de l’année
-- 🎬 Créateur audiovisuel (courts-métrages, voix-off, chaîne vidéo)
+- 🧗 Passionné d'escalade de bloc et de falaise
+- 🎯 Objectif personnel : continuer à progresser vers le haut niveau en bloc
+- 🥾 Amateur de trek longue distance
+- 🎬 Création audiovisuelle et projets vidéo
 
 ---
 
 ## 📫 Me contacter
 
-- Linkedin : https://www.linkedin.com/in/pierre-dumas-18559521b/
+- 💼 LinkedIn : www.linkedin.com/in/pierre-dumas-18559521b
 
 ---
 
