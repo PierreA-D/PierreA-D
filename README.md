@@ -13,137 +13,65 @@ En parallèle de mon activité professionnelle, je développe plusieurs projets 
 
 ---
 
-## 🚀 Domaines d'expertise
+## 🧗 Climbing Live
 
-### Backend
+Mon projet principal : une plateforme de retransmission vidéo dédiée aux compétitions d'escalade.
 
-- PHP 8+
+### Stack technique du projet
+
+**Backend**
 - Symfony
 - API Platform
-- Doctrine ORM
-- JWT Authentication
-- Scheb 2FA
-- Messenger
-
-### Frontend
-
-- React
-- Next.js
-- TypeScript
-- TanStack Router
-- React Query
-- TailwindCSS
-- Ant Design
-- Stimulus
-
-### Streaming & Vidéo
-
-- FFmpeg
-- MediaMTX
-- WebRTC
-- HLS
-- RTMP / RTSP / SRT
-- Video.js
-
-### Infrastructure
-
-- Docker
-- Linux
-- GitHub Actions
-- CI/CD
+- Doctrine
 - PostgreSQL
 
----
+**Frontend**
+- Next.js
+- TypeScript
+- TailwindCSS
 
-## 🏗️ Architecture & Qualité
-
-Parce qu'un projet doit pouvoir évoluer sereinement dans le temps :
-
-- Clean Architecture
-- API REST
-- Domain-Driven Design (DDD)
-- CQRS
-- Architecture orientée événements
-- Analyse statique avec PHPStan
-- Tests unitaires et fonctionnels avec PHPUnit
-- Contrôle des règles d'architecture avec PHPArkitect
-- Automatisation qualité avec GrumPHP
-- Conventional Commits
-- Intégration et déploiement continus
-
----
-
-## 🧗 Projet principal — Climbing Live
-
-**Climbing Live** est une plateforme de retransmission vidéo conçue pour les compétitions d'escalade.
-
-L'objectif est de permettre à des organisateurs de diffuser facilement un événement avec plusieurs caméras tout en conservant une faible latence et une qualité de diffusion optimale.
-
-### Fonctionnalités
-
-- 🎥 Diffusion multi-caméras
-- 📱 Ingestion des flux depuis smartphones ou caméras
-- ⚡ Streaming WebRTC faible latence
-- 📺 Diffusion HLS
-- 🏆 Gestion des compétitions
-- 🎬 Gestion des flux vidéo
-- 📊 Interface d'administration
-
-### Architecture
+**Streaming**
+- MediaMTX
+- FFmpeg
+- WebRTC
+- HLS
 
 ```text
-Smartphones / Caméras
-        │
-        ▼
- RTMP / RTSP / SRT
-        │
-        ▼
-     MediaMTX
-      (Ingest)
-        │
-        ▼
- FFmpeg Workers
-    (Transcode)
-        │
- ┌──────┴──────┐
- ▼             ▼
-HLS         WebRTC
- ▼             ▼
- Next.js Video Player
+Caméras / Smartphones
+          ↓
+       MediaMTX
+          ↓
+        FFmpeg
+          ↓
+     HLS / WebRTC
+          ↓
+       Next.js
 ```
 
 ### Dépôts
 
-| Projet | Description | Stack |
-|---------|-------------|---------|
-| `climbing-live` | Frontend de diffusion multi-caméras | Next.js, TypeScript, TailwindCSS |
-| `climbing-live-api` | API de gestion des compétitions et des athlètes | Symfony, API Platform |
-| `climbing-live-streams` | Infrastructure de streaming et de transcodage | MediaMTX, FFmpeg, Docker |
+- `climbing-live`
+- `climbing-live-api`
+- `climbing-live-streams`
 
 ---
 
-## 🧠 Projets en cours
+## 🛠️ Stack principale personnel
 
-### 🧗 EKIP
+**Backend**
+Symfony • API Platform • Doctrine • PostgreSQL
 
-Plateforme communautaire dédiée aux grimpeurs pour trouver des partenaires, organiser des sorties et partager leur progression.
+**Frontend**
+React • Next.js • TypeScript • TailwindCSS
 
-### 🎯 GoalTracker AI
+**Infrastructure**
+Docker • Linux • GitHub Actions
 
-Application SaaS de suivi d'objectifs intégrant l'intelligence artificielle pour générer automatiquement des plans d'action et des sous-tâches.
-
----
-
-## 🛠️ Stack principale
-
-| Frontend | Backend | Streaming | Infrastructure |
-|-----------|-----------|-----------|-----------|
-| React | Symfony | FFmpeg | Docker |
-| Next.js | API Platform | MediaMTX | Linux |
-| TypeScript | Doctrine | WebRTC | PostgreSQL |
-| TailwindCSS | JWT / 2FA | HLS | GitHub Actions |
+**Qualité**
+PHPStan • PHPUnit • PHPArkitect • GrumPHP
 
 ---
+
 
 ## 🌱 En dehors du code
 
