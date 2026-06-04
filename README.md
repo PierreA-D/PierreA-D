@@ -1,13 +1,12 @@
 # 👋 Salut, moi c'est Pierre
 
-Développeur **Full-Stack** passionné par les architectures robustes, la qualité logicielle et les produits qui résolvent de vrais problèmes.
+Développeur **Full-Stack** passionné par le développement et les projets qui résolvent de vrais problèmes.
 
 Je conçois des applications web performantes et évolutives avec un fort accent sur :
 
 - ⚙️ L'architecture logicielle
 - 🧪 La qualité de code et les tests automatisés
 - 🚀 Les performances et la scalabilité
-- 📡 Les plateformes de streaming vidéo temps réel
 
 En parallèle de mon activité professionnelle, je développe plusieurs projets personnels autour de l'escalade, du streaming et des applications SaaS.
 
@@ -84,7 +83,9 @@ PHPStan • PHPUnit • PHPArkitect • GrumPHP
 
 ## 📫 Me contacter
 
-- 💼 LinkedIn : www.linkedin.com/in/pierre-dumas-18559521b
+<p align="center">
+  <a href="https://linkedin.com/in/pierre-dumas-18559521b" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" height="40" /></a>
+</p>
 
 ---
 
